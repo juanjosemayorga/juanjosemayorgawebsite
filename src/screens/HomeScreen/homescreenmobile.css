@@ -1,0 +1,33 @@
+.home-screen {
+  min-width: 320px;
+  height: 100vh;
+  background-color: tomato;
+}
+
+.home-screen__section-1 {
+  min-height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #4e58c8, #8f94fb);
+}
+
+.home-screen__section-1--figure {
+  min-width: 320px;
+  width: 50%;
+  background-color: aqua;
+}
+
+.home-screen__section-1--image {
+  min-width: 160px;
+  width: 50%;
+  margin-bottom: 16px;
+  border-radius: 50%;
+}
+
+.home-screen__section-1--name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}

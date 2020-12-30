@@ -1,9 +1,10 @@
 import './App.css';
+import { HomeScreenMobile } from './screens/HomeScreen/HomeScreenMobile';
 
 function App() {
   return (
     <>
-      <h1>App</h1>
+      <HomeScreenMobile />
     </>
   );
 }
