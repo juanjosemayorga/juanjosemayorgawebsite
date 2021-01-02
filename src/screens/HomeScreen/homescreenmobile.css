@@ -3,6 +3,8 @@
   height: 100vh;
 }
 
+/* This is the section one */
+
 .home-screen__section-1 {
   position: relative;
   display: flex;
@@ -43,4 +45,32 @@
   font-size: 2rem;
   font-weight: bold;
   color: white;
+}
+
+/* This is the section two */
+
+.home-screen__section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-screen__section-2--profession {
+  font-size: 1.6rem;
+  color: #624CAB;
+  margin-top: 4px;
+}
+
+.home-screen__section-2--container-social-media {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.home-screen__section-2--container-social-media a {
+  margin: 0 8px;
+}
+
+.home-screen__section-2--container-contact {
+  margin-top: 34px;
 }
