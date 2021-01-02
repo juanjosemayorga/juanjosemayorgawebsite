@@ -1,32 +1,45 @@
 .home-screen {
   min-width: 320px;
   height: 100vh;
-  background-color: tomato;
 }
 
 .home-screen__section-1 {
-  min-height: 248px;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  min-height: 248px;
   background-image: linear-gradient(to right, #4e58c8, #8f94fb);
 }
 
+.home-screen__logo {
+  position: absolute;
+  left: -277px;
+  top: -246.49px;
+}
+
 .home-screen__section-1--figure {
-  min-width: 320px;
-  width: 50%;
-  background-color: aqua;
+  z-index: 1;
+  display: flex;
+  min-width: 160px;
+  width: 50vw;
+  min-height: 160px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
 }
 
 .home-screen__section-1--image {
+  z-index: 1;
   min-width: 160px;
-  width: 50%;
-  margin-bottom: 16px;
-  border-radius: 50%;
+  width: 50vw;
 }
 
 .home-screen__section-1--name {
+  z-index: 1;
+  margin-bottom: 6px;
   font-size: 2rem;
   font-weight: bold;
   color: white;

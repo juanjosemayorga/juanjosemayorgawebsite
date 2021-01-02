@@ -9,13 +9,13 @@ export const HomeScreenMobile = () => {
   return (
     <main className="home-screen">
       <section className="home-screen__section-1">
-        <ReactLogo />
-        {/* <figure className="home-screen__section-1--figure"> */}
+        <ReactLogo className="home-screen__logo" />
+        <figure className="home-screen__section-1--figure">
           <img
             src={PROFILE_PICTURE}
             alt="Profile"
             className="home-screen__section-1--image"/>
-        {/* </figure> */}
+        </figure>
         <h1 className="home-screen__section-1--name">Juan Jose Mayorga Garcia</h1>
       </section>
       <section className="home-screen__section-2">
