@@ -75,11 +75,11 @@ export const HomeScreenMobile = () => {
           </a>
         </div>
         <div className="home-screen__section-2--container-contact">
-          <div>
+          <div className="home-screen__section-2--container-contact-data">
             <MailIcon />
             <p>devjuanjose@gmail.com</p>
           </div>
-          <div>
+          <div className="home-screen__section-2--container-contact-data">
             <LocationIcon />
             <p>Zacatecas, México</p>
           </div>

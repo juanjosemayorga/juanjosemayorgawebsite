@@ -72,5 +72,22 @@
 }
 
 .home-screen__section-2--container-contact {
-  margin-top: 34px;
+  margin-top: 30px;
+  margin-left: 40px;
+  align-self: flex-start;
+}
+
+.home-screen__section-2--container-contact-data {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #4e58c8; */
+  align-items: center;
+  margin-top: 4px;
+}
+
+.home-screen__section-2--container-contact-data p {
+  margin-left: 4px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #758ECD;
 }
