@@ -1,0 +1,15 @@
+
+.project-card-item-container {
+  background-color: tomato;
+  min-width: 240px;
+  min-height: 355px;
+  width: 75%;
+}
+
+.project-card-item__image-container {
+  height: 34%;
+}
+
+.project-card-item__image-container-image {
+  height: 34%;
+}

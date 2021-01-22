@@ -1,0 +1,10 @@
+
+.projects-screen-container {
+  height: 100vh;
+}
+
+.projects-screen__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #624CAB;
+}
