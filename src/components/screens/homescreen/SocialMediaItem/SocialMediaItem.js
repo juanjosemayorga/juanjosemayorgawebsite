@@ -1,0 +1,17 @@
+import React from 'react'
+import './socialmediaitem.css'
+
+export const SocialMediaItem = ({ socialmediaitem }) => {
+
+  const { Logo, path } = socialmediaitem;
+
+  return (
+    <a
+      className="social-media-item-container"
+      href={path}
+      target="_blank"
+      rel="noopener noreferrer">
+        <Logo className="social-media-item-container__logo"/>
+    </a>
+  )
+}

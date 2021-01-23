@@ -15,15 +15,23 @@ import LocationIcon from '../../assets/pages/HomeScreen/LocationIcon'
 // links
 import {
   PROFILE_PICTURE,
-  FREECODECAMP_PROFILE,
-  GITHUB_PROFILE,
   LINKEDIN_PROFILE,
+  TWITTER_PROFILE,
+  GITHUB_PROFILE,
   PLATZI_PROFILE,
-  TWITTER_PROFILE
+  FREECODECAMP_PROFILE
 } from '../../utils/links'
+import { SocialMediaItem } from '../../components/screens/homescreen/SocialMediaItem/SocialMediaItem'
 
-// Crear un arreglo o un objeto con las imagenes para poderlos iterar y no cargar 
-// el componente de tanto texto
+const logos = [
+  { name: "LinkedIn", path: LINKEDIN_PROFILE, Logo: LinkedinLogo },
+  { name: "Github", path: GITHUB_PROFILE, Logo: GithubLogo },
+  { name: "Twitter", path: TWITTER_PROFILE, Logo: TwitterLogo },
+  { name: "Platzi", path: PLATZI_PROFILE, Logo: PlatziLogo },
+  { name: "FreeCodeCamp", path: FREECODECAMP_PROFILE, Logo: FreecodecampLogo },
+]
+
+// Escribir el about me que va a tener el sitio
 
 export const HomeScreen = () => {
   return (
@@ -43,7 +51,9 @@ export const HomeScreen = () => {
             <h3 className="home-screen-section-1__container-titles--profession">Frontend Developer</h3>
           </div>
           <div className="home-screen-section-1__container-social-media">
-            Social Media
+            {
+              logos.map((logo, i) => <SocialMediaItem key={i} socialmediaitem={logo} />)
+            }
           </div>
           <ReactLogo className="home-screen-section-1__logo-react"/>
       </section>

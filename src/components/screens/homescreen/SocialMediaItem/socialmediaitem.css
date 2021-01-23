@@ -1,0 +1,9 @@
+
+.social-media-item-container {
+  margin: 0 12px;
+}
+
+.social-media-item-container__logo {
+  width: 40px;
+  height: 40px;
+}
