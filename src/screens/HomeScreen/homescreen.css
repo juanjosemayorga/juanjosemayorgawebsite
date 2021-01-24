@@ -169,3 +169,62 @@
 .home-screen-section-1__container-social-media {
   margin-top: 40px;
 }
+
+/* Section 2 */
+
+.home-screen-section-2__about-me {
+  margin-top: 32px;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #624CAB;
+}
+
+.home-screen-section-2__about-me-text--part-2 {
+  display: none;
+}
+
+/* Section 3 */
+
+.home-screen-section-3__contact-and-location {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.home-screen-section-3__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.home-screen-section-3__contact-and-location--section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-screen-section-3__mail {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #758ECD;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.home-screen-section-3__contact-and-location--section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.home-screen-section-3__location {
+  font-size: 1.2rem;
+  color: #758ECD;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+
+/* .home-screen-section-3__contact-and-location--section */

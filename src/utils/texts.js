@@ -1,0 +1,4 @@
+export const ABOUT_ME_PART_1 = `Luego de muchos años de auto-formación que me definen porque nunca paro de aprender, soy un Frontend Developer con experiencia en HTML, CSS, JavaScript y diseño UI. Hoy me encuentro experimentando con tecnologías como React y Redux.`;
+
+export const ABOUT_ME_PART_2 = `Todo esto combinado con mi experiencia en la rama audiovisual manejando Software como Premiere Pro CC, After Effects o Photoshop, puedo apoyar en proyectos multidisciplinarios.
+Busco colaborar en proyectos desarrollando productos digitales con piezas de código re-utilizables construidas en React, y así convertirme en un experto en mi área, pues en verdad me apasiona lo que hago.`;

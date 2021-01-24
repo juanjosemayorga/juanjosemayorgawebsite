@@ -21,6 +21,7 @@ import {
   PLATZI_PROFILE,
   FREECODECAMP_PROFILE
 } from '../../utils/links'
+
 import { SocialMediaItem } from '../../components/screens/homescreen/SocialMediaItem/SocialMediaItem'
 
 const logos = [
@@ -57,11 +58,22 @@ export const HomeScreen = () => {
           </div>
           <ReactLogo className="home-screen-section-1__logo-react"/>
       </section>
-      <section>
-        {/* About Me */}
+      <section className="home-screen-section-2__about-me">
+        <p className="home-screen-section-2__about-me-text--part-1">Luego de muchos años de auto-formación que me definen porque nunca paro de aprender, soy un <strong>Frontend Developer</strong> con experiencia en HTML, CSS, JavaScript y diseño UI. Hoy me encuentro trabajando con tecnologías como React y Redux.</p>
+        <p className="home-screen-section-2__about-me-text--part-2">Todo esto combinado con mi experiencia en la rama audiovisual manejando Software como Premiere Pro CC, After Effects o Photoshop, puedo apoyar en proyectos multidisciplinarios.
+        Busco colaborar en proyectos desarrollando productos digitales con piezas de código re-utilizables construidas en React, y así convertirme en un experto en mi área, pues en verdad me apasiona lo que hago.</p>
       </section>
-      <section>
-        {/* Contact */}
+      <section className="home-screen-section-3__contact-and-location">
+        <div className="home-screen-section-3__contact-and-location--section-1">
+          <MailIcon className="home-screen-section-3__icon"/>
+          <a
+            className="home-screen-section-3__mail"
+            href="mailto:devjuanjose@gmail.com">devjuanjose@gmail.com</a>
+        </div>
+        <div className="home-screen-section-3__contact-and-location--section-2">
+          <LocationIcon className="home-screen-section-3__icon"/>
+          <p className="home-screen-section-3__location">Zacatecas, México</p>
+        </div>
       </section>
     </main>
   )
