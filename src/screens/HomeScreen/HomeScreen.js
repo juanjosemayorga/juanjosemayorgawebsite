@@ -32,14 +32,12 @@ const logos = [
   { name: "FreeCodeCamp", path: FREECODECAMP_PROFILE, Logo: FreecodecampLogo },
 ]
 
-// Escribir el about me que va a tener el sitio
-
 export const HomeScreen = () => {
   return (
     <main className="home-screen">
       <section className="home-screen-section-1">
           <div className="home-screen-background"></div>
-          <div>
+          <div className="home-screen-section-1__image-container">
             <figure className="home-screen-section-1__figure">
               <img
                 className="home-screen-section-1__image"

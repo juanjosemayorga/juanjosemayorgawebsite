@@ -4,8 +4,6 @@ function ReactLogo(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={554.083}
-      height={492.976}
       viewBox="0 0 554.083 492.976"
       {...props}
     >
