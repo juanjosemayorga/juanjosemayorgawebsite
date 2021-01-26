@@ -49,6 +49,10 @@
   text-align: center;
 }
 
+.home-screen-section-1__container-titles--video-editor {
+  display: none;
+}
+
 .home-screen-section-1__logo-react {
   position: absolute;
   width: 554px;
@@ -70,6 +74,10 @@
   text-align: center;
   font-size: 1.4rem;
   color: #624CAB;
+}
+
+.home-screen-section-2__about-me--about-me {
+  display: none;
 }
 
 .home-screen-section-2__about-me-text--part-2 {
@@ -120,9 +128,8 @@
 
 /* Media queries Tablet starts */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .home-screen-section-1 {
-    border: 1px solid green;
     height: 384px;
     display: grid;
     grid-template-columns: 280px 1fr;
@@ -132,8 +139,7 @@
     height: 384px;
   }
   .home-screen-section-1__image-container {
-    border: 1px solid red;
-    background-color: cornflowerblue;
+    /* border: 1px solid red; */
     width: 280px;
     height: 100%;
     padding-left: 40px;
@@ -146,7 +152,9 @@
     margin-top: 72px;
   }
   .home-screen-section-1__container-titles {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    height: 100%;
+    padding-left: 40px;
   }
   .home-screen-section-1__container-titles--title {
     font-size: 4.2rem;
@@ -156,6 +164,10 @@
     font-size: 3.4rem;
     margin-top: 12px;
     text-align: start;
+    color: white;
+  }
+  .home-screen-section-1__container-titles--video-editor {
+    display: inline;
   }
   .home-screen-section-1__logo-react {
     width: 1171px;
@@ -164,7 +176,53 @@
     left: -585.5px;
   }
   .home-screen-section-1__container-social-media {
-    border: 1px solid red;
-    
+    /* border: 1px solid red; */
+    padding-left: calc(40px - 12px);
+    padding-top: calc(72px - 16px);
+    height: 100%;
+    margin: 0;
   }
+
+  /* Section 2 Starts */
+
+  .home-screen-section-2__about-me {
+    margin-top: 12px;
+    font-size: 2.4rem;
+    font-weight: normal;
+  }
+  .home-screen-section-2__about-me--about-me {
+    display: block;
+    font-size: 3.4rem;
+    font-weight: medium;
+  }
+  .home-screen-section-2__about-me-text--part-1 {
+    padding-top: 32px;
+  }
+  .home-screen-section-2__about-me-text--part-2 {
+    display: block;
+  }
+
+  /* Section 3 Starts */
+
+  .home-screen-section-3__contact-and-location {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 64px;
+  }
+  .home-screen-section-3__icon {
+    width: 32px;
+    height: 32px;
+  }
+  .home-screen-section-3__mail {
+    font-size: 2.0rem;
+    margin-left: 4px;
+  }
+  .home-screen-section-3__contact-and-location--section-2 {
+    margin: 0 0 0 32px;
+  }
+  .home-screen-section-3__location {
+    font-size: 2.0rem;
+    margin-left: 4px;
+  }
+
 }
