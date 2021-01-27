@@ -77,6 +77,7 @@ export const HomeScreen = () => {
           <p className="home-screen-section-3__location">Zacatecas, México</p>
         </div>
       </section>
+      <hr className="home-screen-divisor"/>
     </main>
   )
 }

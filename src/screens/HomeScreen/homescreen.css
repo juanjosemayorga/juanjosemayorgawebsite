@@ -1,6 +1,7 @@
 
 .home-screen {
-  
+  display: flex;
+  flex-direction: column;
 }
 
 /* Section 1 Starts */
@@ -126,6 +127,16 @@
   margin-left: 6px;
 }
 
+.home-screen-divisor {
+  width: 90%;
+  height: 1px;
+  background-color: #707070;
+  border: none;
+  opacity: 0.16;
+  margin-top: 56px;
+  align-self: center;
+}
+
 /* Media queries Tablet starts */
 
 @media screen and (min-width: 768px) {
@@ -225,4 +236,15 @@
     margin-left: 4px;
   }
 
+}
+
+/* Media queries Desktop starts */
+
+@media screen and (min-width: 1024px) {
+  .home-screen-section-1 {
+    padding: 0 10%;
+  }
+  .home-screen-section-2__about-me {
+    padding: 0 10%;
+  }
 }
