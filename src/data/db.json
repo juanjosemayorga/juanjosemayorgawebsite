@@ -1,0 +1,8 @@
+[
+  {
+    "name": "CoronaData",
+    "information": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
+    "image": "https://jjmg-pictures.s3.amazonaws.com/coronadata-example.png",
+    "technologies": ["react", "graphql", "material design"]
+  }
+]

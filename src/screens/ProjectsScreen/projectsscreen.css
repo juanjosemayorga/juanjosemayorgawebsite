@@ -1,10 +1,13 @@
 
 .projects-screen-container {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects-screen__title {
   font-size: 1.8rem;
   font-weight: 500;
   color: #624CAB;
+  margin-top: 32px;
 }
