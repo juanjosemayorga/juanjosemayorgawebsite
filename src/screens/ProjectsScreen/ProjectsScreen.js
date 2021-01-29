@@ -7,6 +7,7 @@ export const ProjectsScreen = () => {
     <div className="projects-screen-container">
       <h2 className="projects-screen__title">Proyectos</h2>
       <ProjectCardContainer />
+      <hr className="project-screen-divisor"/>
     </div>
   )
 }
