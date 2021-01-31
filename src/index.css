@@ -11,3 +11,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+:root {
+  --dark-primary-color: #624CAB;
+}

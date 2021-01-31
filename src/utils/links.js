@@ -1,4 +1,4 @@
-export const PROFILE_PICTURE = 'https://jjmg-pictures.s3.amazonaws.com/square_profile_picture.png'
+export const PROFILE_PICTURE = 'https://jjmg-pictures.s3.amazonaws.com/square_profile_picture_min.png'
 export const LINKEDIN_PROFILE = 'https://www.linkedin.com/in/juanjosedev/'
 export const GITHUB_PROFILE = 'https://github.com/juanjosemayorga'
 export const TWITTER_PROFILE = 'https://twitter.com/juanjosedev'
