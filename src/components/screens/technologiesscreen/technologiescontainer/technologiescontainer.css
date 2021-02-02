@@ -1,5 +1,6 @@
 .technology-screen-technologies-container {
-  padding-top: 32px;
+  min-width: 320px;
+  padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
