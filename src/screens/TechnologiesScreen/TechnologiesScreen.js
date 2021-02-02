@@ -7,7 +7,7 @@ export const TechnologiesScreen = () => {
     <div className="technology-screen-container">
       <h2 className="technology-screen__title">Tecnologías</h2>
       <TechnologiesContainer />
-      <hr/>
+      <hr className="technology-screen-divisor"/>
     </div>
   )
 }

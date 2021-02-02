@@ -6,18 +6,11 @@ export const TechnologyItem = ({ technology }) => {
   const { image, name } = technology
 
   return (
-    <div
-      className="technology-screen-item-container">
-      <figure
-        className="technology-screen-item__figure">
-        <img
-          className="technology-screen-item__image"
-          src={image}
-          alt={name}
-          title={name}/>
+    <div className="technology-screen-item-container">
+      <figure className="technology-screen-item__figure">
+        <img className="technology-screen-item__image" src={image} alt={name} />
       </figure>
-      <p
-        className="technology-screen-item__technology-text">{name}</p>
+      <p className="technology-screen-item__technology-text">{name}</p>
     </div>
   )
 }
