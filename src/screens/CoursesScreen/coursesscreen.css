@@ -1,0 +1,36 @@
+
+.courses-screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses-screen__title {
+  font-size: 1.8rem;
+  font-weight: medium;
+  padding-top: 32px;
+  color: var(--dark-primary-color);
+}
+
+.courses-screen-divisor {
+  width: 90%;
+  height: 1px;
+  background-color: #707070;
+  border: none;
+  opacity: 0.16;
+  margin-top: 37px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  .courses-screen__title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-top: 48px;
+  }
+  .courses-screen-divisor {
+    margin-top: 44px;
+  }
+
+}

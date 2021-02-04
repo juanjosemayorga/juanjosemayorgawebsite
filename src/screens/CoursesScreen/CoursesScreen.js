@@ -7,7 +7,7 @@ export const CoursesScreen = () => {
     <div className="courses-screen-container">
       <h1 className="courses-screen__title">Cursos y certificaciones</h1>
       <CoursesContainer />
-      <hr/>
+      <hr className="courses-screen-divisor"/>
     </div>
   )
 }

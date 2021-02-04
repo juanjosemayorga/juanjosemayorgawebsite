@@ -1,0 +1,19 @@
+
+.course-card-container {
+  position: relative;
+  margin-top: 22px;
+  width: 100%;
+}
+
+.course-card-container__carousel {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .course-card-container {
+    margin-top: 72px;
+  }
+  .course-card-container .rec.rec-carousel {
+    width: 800px;
+  }
+}

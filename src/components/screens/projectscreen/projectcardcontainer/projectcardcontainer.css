@@ -3,12 +3,10 @@
   position: relative;
   margin-top: 22px;
   width: 100%;
-  /* background-color: tomato; */
 }
 
 .project-card-container__carousel {
   padding: 10px 0;
-  /* background-color: cornflowerblue; */
 }
 
 .rec.rec-arrow {
