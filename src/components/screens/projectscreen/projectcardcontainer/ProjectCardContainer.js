@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './projectcardcontainer.css'
 import { ProjectCardItem } from '../projectcarditem/ProjectCardItem'
-import db from '../../../../data/db.json'
+import { projects } from '../../../../data/db.json'
 import Carousel from 'react-elastic-carousel'
 
 export const ProjectCardContainer = () => {
@@ -32,9 +32,9 @@ export const ProjectCardContainer = () => {
         pagination={true}
         showArrows={desktop ? true : false}
         breakPoints={breakpoints}>
-        <ProjectCardItem project={db[0]}/>
-        <ProjectCardItem project={db[0]}/>
-        <ProjectCardItem project={db[0]}/>
+        <ProjectCardItem project={projects[0]}/>
+        <ProjectCardItem project={projects[0]}/>
+        <ProjectCardItem project={projects[0]}/>
       </Carousel>
     </div>
   )
