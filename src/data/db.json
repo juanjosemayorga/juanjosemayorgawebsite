@@ -1,8 +1,191 @@
-[
-  {
-    "name": "CoronaData",
-    "information": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
-    "image": "https://jjmg-pictures.s3.amazonaws.com/coronadata-example.png",
-    "technologies": ["react", "graphql", "material design"]
-  }
-]
+{
+  "profile": {
+      "name": "Juan Jose Mayorga",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/profile-picture/square_profile_picture_min.png"
+  },
+  "projects": [
+    {
+      "name": "CoronaData",
+      "information": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
+      "image": "https://jjmg-pictures.s3.amazonaws.com/coronadata-example.png",
+      "technologies": ["react", "graphql", "material design"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Curso de Adobe XD",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-adobe-xd-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Curso de api rest",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-api-rest-1.png"
+    },
+    {
+      "id": 3,
+      "title": "Curso de asincronismo con javascript",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-asincronismo-js-1.png"
+    },
+    {
+      "id": 4,
+      "title": "Curso de node.js",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-backend-js-1.png"
+    },
+    {
+      "id": 5,
+      "title": "Backend con node.js",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-backend-nodejs-1.png"
+    },
+    {
+      "id": 6,
+      "title": "Sistemas de diseño para desarrolladores",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-diseno-desarrolladores-1.png"
+    },
+    {
+      "id": 7,
+      "title": "Curso de fundamentos de diseño de interfaces ui y ux",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-diseno-interfaces-ux-1.png"
+    },
+    {
+      "id": 8,
+      "title": "Curso de diseño para programadores",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-diseno-programadores-1.png"
+    },
+    {
+      "id": 9,
+      "title": "Curso de manipilacion del dom",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-dom-1.png"
+    },
+    {
+      "id": 10,
+      "title": "Curso de ecmascript 6+",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-ecmascript-6-1.png"
+    },
+    {
+      "id": 11,
+      "title": "Curso de estructuras de datos con javascript",
+      "image":"https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-estructuras-datos-1.png"
+    },
+    {
+      "id": 12,
+      "title": "Curso de frontend developer",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-frontend-developer-1.png"
+    },
+    {
+      "id": 13,
+      "title": "Curso de introduccion al diseño",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-fundamentos-diseno-1.png"
+    },
+    {
+      "id": 14,
+      "title": "Curso de fundamentos de javascript",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-fundamentos-javascript-1.png"
+    },
+    {
+      "id": 15,
+      "title": "Curso de fundamentos de node.js",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-fundamentos-node-1.png"
+    },
+    {
+      "id": 16,
+      "title": "Curso de git y github",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-git-github-1.png"
+    },
+    {
+      "id": 17,
+      "title": "Curso definitivo de html y css",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-html-css-1.png"
+    },
+    {
+      "id": 18,
+      "title": "Curso de html y css",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-html-css-2019-1.png"
+    },
+    {
+      "id": 19,
+      "title": "Curso practico de html y css",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-html-practico-1.png"
+    },
+    {
+      "id": 20,
+      "title": "Curso de desarrollo de web online",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-html5-css3-1.png"
+    },
+    {
+      "id": 21,
+      "title": "Curso de fundamentos de ingenieria de software",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-ingenieria-1.png"
+    },
+    {
+      "id": 22,
+      "title": "Curso de diseño de interfaces",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-interfaces-moviles-1.png"
+    },
+    {
+      "id": 23,
+      "title": "Curso de javascript engine (v8) y el navegador",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-javascript-navegador-1.png"
+    },
+    {
+      "id": 24,
+      "title": "profesional de javascript",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-javascript-profesional-1.png"
+    },
+    {
+      "id": 25,
+      "title": "Curso de responsive design: maquetacion mpbile first",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-mobile-first-1.png"
+    },
+    {
+      "id":26,
+      "title": "Curso practico de node.js",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-practico-node-1.png"
+    },
+    {
+      "id": 27,
+      "title": "Curso para probar tus ideas: prototipos y testing",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-prototipos-testing-1.png"
+    },
+    {
+      "id": 28,
+      "title": "Curso de react.js",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-react-1.png"
+    },
+    {
+      "id": 29,
+      "title": "Curso de reactjs avanzado",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-react-avanzado-1.png"
+    },
+    {
+      "id": 30,
+      "title": "Curso de reactjs",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-react-ejs-1.png"
+    },
+    {
+      "id": 31,
+      "title": "Curso de react router y redux",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-react-router-redux-1.png"
+    },
+    {
+      "id": 32,
+      "title": "Curso de responsive design",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-responsive-design-1.png"
+    },
+    {
+      "id": 33,
+      "title": "Curso de sass",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-sass-1.png"
+    },
+    {
+      "id": 34,
+      "title": "Curso de closures y scope en javascript",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-scope-1.png"
+    },
+    {
+      "id": 35,
+      "title": "Curso de sistemas de diseño",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/certificates/diploma-sistemas-diseno-1.png"
+    }
+  ]
+}

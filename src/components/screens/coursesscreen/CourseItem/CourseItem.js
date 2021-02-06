@@ -6,6 +6,7 @@ export const CourseItem = ({ image, title }) => {
     <figure className="course-item-container">
       <img
         className="course-item__image"
+        loading="lazy"
         src={image}
         alt={title}
         title={title}/>

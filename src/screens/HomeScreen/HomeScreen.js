@@ -1,6 +1,7 @@
 import React from 'react'
 import './homescreen.css'
 import ReactLogo from '../../assets/pages/HomeScreen/ReactLogo'
+import { profile } from '../../data/db.json'
 
 // social media logos
 import LinkedinLogo from '../../assets/pages/HomeScreen/social-media/LinkedinLogo'
@@ -14,7 +15,6 @@ import LocationIcon from '../../assets/pages/HomeScreen/LocationIcon'
 
 // links
 import {
-  PROFILE_PICTURE,
   LINKEDIN_PROFILE,
   TWITTER_PROFILE,
   GITHUB_PROFILE,
@@ -41,8 +41,10 @@ export const HomeScreen = () => {
             <figure className="home-screen-section-1__figure">
               <img
                 className="home-screen-section-1__image"
-                src={PROFILE_PICTURE}
-                alt="Profile"/>
+                src={profile.image}
+                alt={profile.name}
+                title={profile.name}
+                />
             </figure>
           </div>
           <div className="home-screen-section-1__container-titles">
@@ -54,7 +56,7 @@ export const HomeScreen = () => {
           </div>
           <div className="home-screen-section-1__container-social-media">
             {
-              logos.map((logo, i) => <SocialMediaItem key={logo.id} socialmediaitem={logo} />)
+              logos.map(logo => <SocialMediaItem key={logo.id} socialmediaitem={logo} />)
             }
           </div>
           <ReactLogo className="home-screen-section-1__logo-react"/>

@@ -3,7 +3,7 @@ import './coursescontainer.css'
 import Carousel from 'react-elastic-carousel'
 
 import { CourseItem } from '../CourseItem/CourseItem'
-import { certificates } from '../../../../data/certificates'
+import db from '../../../../data/db.json'
 
 export const CoursesContainer = () => {
 
@@ -34,7 +34,7 @@ export const CoursesContainer = () => {
         showArrows={desktop ? true : false}
         breakPoints={breakpoints}>
           {
-            certificates.map(certificate => <CourseItem key={certificate.id} {...certificate} />)
+            db.certificates.map(certificate => <CourseItem key={certificate.id} {...certificate} />)
           }
       </Carousel>
     </div>
