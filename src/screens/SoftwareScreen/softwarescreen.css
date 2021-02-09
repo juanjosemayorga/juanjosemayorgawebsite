@@ -1,0 +1,21 @@
+
+.software-screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.software-screen__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--dark-primary-color);
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .software-screen__title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 44px;
+  }
+}

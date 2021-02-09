@@ -2,6 +2,7 @@ import React from 'react'
 import { CoursesScreen } from '../CoursesScreen/CoursesScreen'
 import { HomeScreen } from '../HomeScreen/HomeScreen'
 import { ProjectsScreen } from '../ProjectsScreen/ProjectsScreen'
+import { SoftwareScreen } from '../SoftwareScreen/SoftwareScreen'
 import { TechnologiesScreen } from '../TechnologiesScreen/TechnologiesScreen'
 
 export const Home = () => {
@@ -11,6 +12,7 @@ export const Home = () => {
       <ProjectsScreen />
       <TechnologiesScreen />
       <CoursesScreen />
+      <SoftwareScreen />
     </>
   )
 }
