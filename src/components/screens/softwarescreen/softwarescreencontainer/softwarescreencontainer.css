@@ -1,0 +1,15 @@
+
+.software-screen-software-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 320px;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .software-screen-software-container {
+    padding: 64px 10% 0;
+  }
+}

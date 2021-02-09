@@ -1,0 +1,49 @@
+
+.software-screen-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 64px;
+  height: 90px;
+  margin: 0 32px 32px;
+}
+
+.software-screen-item__figure {
+  width: 64px;
+  height: 64px;
+}
+
+.software-screen-item__image {
+  width: 100%;
+  height: 100%;
+}
+
+.software-screen-item__software-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7189FF;
+}
+
+@media screen and (min-width: 768px) {
+
+  .software-screen-item-container {
+    width: 154px;
+    height: 205px;
+  }
+  .software-screen-item-container:hover .software-screen-item__figure {
+    transform: scale(1.1);
+    transform-origin: top;
+  }
+  .software-screen-item__figure {
+    height: 140px;
+    width: 140px;
+    transform-origin: top;
+    transition: all 0.2s ease-in-out;
+  }
+  .software-screen-item__software-text {
+    font-size: 2.8rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+}
