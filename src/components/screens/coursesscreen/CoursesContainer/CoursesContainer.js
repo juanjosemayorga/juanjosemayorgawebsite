@@ -3,7 +3,8 @@ import './coursescontainer.css'
 import Carousel from 'react-elastic-carousel'
 
 import { CourseItem } from '../CourseItem/CourseItem'
-import db from '../../../../data/db.json'
+import { certificates } from '../../../../data/db.json'
+import shuffle from 'lodash.shuffle'
 
 export const CoursesContainer = () => {
 
@@ -34,7 +35,7 @@ export const CoursesContainer = () => {
         showArrows={desktop ? true : false}
         breakPoints={breakpoints}>
           {
-            db.certificates.map(certificate => <CourseItem key={certificate.id} {...certificate} />)
+            shuffle(certificates).map(certificate => <CourseItem key={certificate.id} {...certificate} />)
           }
       </Carousel>
     </div>
