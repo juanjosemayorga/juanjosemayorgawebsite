@@ -59,7 +59,10 @@ export const HomeScreen = () => {
               logos.map(logo => <SocialMediaItem key={logo.id} socialmediaitem={logo} />)
             }
           </div>
-          <ReactLogo className="home-screen-section-1__logo-react"/>
+          <ReactLogo
+            opacity={.32}
+            fill={'#fff'}
+            className="home-screen-section-1__logo-react"/>
       </section>
       <section className="home-screen-section-2__about-me">
         <h3 className="home-screen-section-2__about-me--about-me">Sobre mí</h3>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../../components/Footer/Footer'
 import { CoursesScreen } from '../CoursesScreen/CoursesScreen'
 import { HomeScreen } from '../HomeScreen/HomeScreen'
 import { ProjectsScreen } from '../ProjectsScreen/ProjectsScreen'
@@ -13,6 +14,7 @@ export const Home = () => {
       <TechnologiesScreen />
       <CoursesScreen />
       <SoftwareScreen />
+      <Footer />
     </>
   )
 }
