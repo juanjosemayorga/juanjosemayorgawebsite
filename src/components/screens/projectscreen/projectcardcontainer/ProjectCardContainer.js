@@ -32,9 +32,9 @@ export const ProjectCardContainer = () => {
         pagination={true}
         showArrows={desktop ? true : false}
         breakPoints={breakpoints}>
-        <ProjectCardItem project={projects[0]}/>
-        <ProjectCardItem project={projects[0]}/>
-        <ProjectCardItem project={projects[0]}/>
+        {
+          projects.map(project => <ProjectCardItem key={project.id} project={project} />)
+        }
       </Carousel>
     </div>
   )

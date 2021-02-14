@@ -5,10 +5,37 @@
   },
   "projects": [
     {
+      "id": 1,
+      "name": "Luna Control",
+      "information": "Luna Control es una App para Android construida para un negocio que se dedica a vender Pays de Queso, Campechanas y Polvorones. La app maneja datos de clientes, registros de ventas entre otras cosas.",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/luna-control-card.png",
+      "technologies": [
+        { "name": "Java", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/java.svg" },
+        { "name": "Firebase Database", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/firebase.svg" },
+        { "name": "Material Design", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/material-design.png" }
+      ]
+    },
+    {
+      "id": 2,
       "name": "CoronaData",
       "information": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
-      "image": "https://jjmg-pictures.s3.amazonaws.com/coronadata-example.png",
-      "technologies": ["react", "graphql", "material design"]
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/coronadata-card.png",
+      "technologies": [
+        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
+        { "name": "GraphQL", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/graphql.svg" },
+        { "name": "Material Design", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/material-design.png" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hobbify",
+      "information": "Hobbify permite a los usuarios realizar un seguimiento de su progreso en los hábitos diarios. ¿Quieres intentar practicar yoga todos los días? Puedes iniciar hábitos grupales. ¡El objetivo es que sea simple!",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/hobbify-card.png",
+      "technologies": [
+        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
+        { "name": "Redux", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/redux.svg" },
+        { "name": "Styled-Components", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/styled-components.png" }
+      ]
     }
   ],
   "certificates": [

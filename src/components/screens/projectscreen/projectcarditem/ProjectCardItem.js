@@ -1,11 +1,11 @@
 import React from 'react'
 import './projectcarditem.css'
+import { nanoid } from 'nanoid'
+import { TechnologyItem } from '../technologyitem/TechnologyItem'
 
 export const ProjectCardItem = ({ project }) => {
 
-  const { name, information, image, technology } = project
-
-  // const WORLD_PICTURE = 'https://jjmg-pictures.s3.amazonaws.com/coronadata-example.png';
+  const { name, information, image, technologies } = project
 
   return (
     <div className="card-container">
@@ -17,14 +17,15 @@ export const ProjectCardItem = ({ project }) => {
       </figure>
       <h3 className="card-container__title">{name}</h3>
       <p className="card-container__text">
-        {/* CoronaData es un proyecto creado para mostrar la cantidad de camas de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos. */}
         {information}
       </p>
       <hr className="card-container__divisor"/>
       <div className="card-container__technologies">
-        <p>Tecnología 1</p>
-        <p>Tecnología 2</p>
-        <p>Tecnología 3</p>
+        {
+          technologies.map(tech => {
+            return <TechnologyItem key={nanoid()} technology={tech} />
+          })
+        }
       </div>
     </div>
   )

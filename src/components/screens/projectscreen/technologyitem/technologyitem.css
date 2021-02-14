@@ -1,0 +1,42 @@
+
+.technology-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 56px;
+  height: 80px;
+  margin: 0 8px;
+}
+
+.technology-item-container__figure {
+  width: 32px;
+  height: 32px;
+}
+
+.technology-item-container__picture {
+  width: 100%;
+  height: 100%;
+}
+
+.technology-item-container__text {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .technology-item-container {
+    width: 88px;
+    height: 120px;
+    margin: 0 12px;
+  }
+  .technology-item-container__figure {
+    width: 56px;
+    height: 56px;
+  }
+  .technology-item-container__text {
+    font-size: 1.6rem;
+    margin-top: 16px;
+  }
+}
