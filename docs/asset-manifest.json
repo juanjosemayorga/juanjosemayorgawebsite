@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fec02caf.chunk.css",
+    "main.js": "/static/js/main.ba537e3e.chunk.js",
+    "main.js.map": "/static/js/main.ba537e3e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.781ebf8f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.781ebf8f.js.map",
+    "static/js/2.cd80cdff.chunk.js": "/static/js/2.cd80cdff.chunk.js",
+    "static/js/2.cd80cdff.chunk.js.map": "/static/js/2.cd80cdff.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fec02caf.chunk.css.map": "/static/css/main.fec02caf.chunk.css.map",
+    "static/js/2.cd80cdff.chunk.js.LICENSE.txt": "/static/js/2.cd80cdff.chunk.js.LICENSE.txt",
+    "static/media/adobexd.1536b5ef.svg": "/static/media/adobexd.1536b5ef.svg",
+    "static/media/aftereffects.9752f1d7.svg": "/static/media/aftereffects.9752f1d7.svg",
+    "static/media/css.6854789a.svg": "/static/media/css.6854789a.svg",
+    "static/media/html.cf51b387.svg": "/static/media/html.cf51b387.svg",
+    "static/media/illustrator.84bfd28c.svg": "/static/media/illustrator.84bfd28c.svg",
+    "static/media/javascript.61c1fa6b.svg": "/static/media/javascript.61c1fa6b.svg",
+    "static/media/love.2eaa1117.svg": "/static/media/love.2eaa1117.svg",
+    "static/media/nodejs.dd47e26e.svg": "/static/media/nodejs.dd47e26e.svg",
+    "static/media/photoshop.c1c972a1.svg": "/static/media/photoshop.c1c972a1.svg",
+    "static/media/premiere.7de2daa4.svg": "/static/media/premiere.7de2daa4.svg",
+    "static/media/react.164674be.svg": "/static/media/react.164674be.svg",
+    "static/media/redux.546485b8.svg": "/static/media/redux.546485b8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.781ebf8f.js",
+    "static/js/2.cd80cdff.chunk.js",
+    "static/css/main.fec02caf.chunk.css",
+    "static/js/main.ba537e3e.chunk.js"
+  ]
+}
