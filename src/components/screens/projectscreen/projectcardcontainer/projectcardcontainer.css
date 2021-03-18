@@ -1,25 +1,16 @@
 
 .project-card-container {
-  position: relative;
-  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-}
-
-.project-card-container__carousel {
-  padding: 10px 0;
-}
-
-.rec.rec-arrow {
-  background: none;
-  align-self: center;
-  font-size: 2.4rem;
+  margin-top: 32px;
 }
 
 @media screen and (min-width: 768px) {
   .project-card-container {
     margin-top: 72px;
-  }
-  .rec.rec-carousel {
-    width: 600px;
+    padding: 0 10%;
   }
 }

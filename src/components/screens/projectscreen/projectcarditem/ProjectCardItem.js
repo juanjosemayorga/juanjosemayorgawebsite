@@ -5,7 +5,7 @@ import { TechnologyItem } from '../technologyitem/TechnologyItem'
 
 export const ProjectCardItem = ({ project }) => {
 
-  const { name, information, image, technologies } = project
+  const { name, information, image, technologies, link } = project
 
   return (
     <div className="card-container">
@@ -15,7 +15,15 @@ export const ProjectCardItem = ({ project }) => {
           src={image}
           alt={name}/>
       </figure>
-      <h3 className="card-container__title">{name}</h3>
+      <h3 className="card-container__title">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={link}
+        >
+            {name}
+        </a>
+      </h3>
       <p className="card-container__text">
         {information}
       </p>

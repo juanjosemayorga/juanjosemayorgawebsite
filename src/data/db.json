@@ -1,25 +1,55 @@
 {
   "profile": {
       "name": "Juan Jose Mayorga",
-      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/profile-picture/square_profile_picture_min.png"
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/profile-picture/profile_without_color_ring_min_min.png"
   },
   "projects": [
     {
       "id": 1,
-      "name": "Luna Control",
-      "information": "Luna Control es una App para Android construida para un negocio que se dedica a vender Pays de Queso, Campechanas y Polvorones. La app maneja datos de clientes, registros de ventas entre otras cosas.",
-      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/luna-control-card.png",
+      "name": "Tracker",
+      "information": "A web application that allows you to read a Trello board and analyze the progress of a project.",
+      "information-es": "",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/projects/tracker.png",
+      "link": "https://github.com/Tracker-Master/Tracker",
       "technologies": [
-        { "name": "Java", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/java.svg" },
-        { "name": "Firebase Database", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/firebase.svg" },
-        { "name": "Material Design", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/material-design.png" }
+        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
+        { "name": "Jest", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/jest.png" },
+        { "name": "Styled-Components", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/styled-components.png" }
       ]
     },
     {
       "id": 2,
+      "name": "Tamaliza",
+      "information": "A mobile app for a small business that needed to handle clients, sales and registry the income of the day",
+      "information-es": "Hobbify permite a los usuarios realizar un seguimiento de su progreso en los hábitos diarios. ¿Quieres intentar practicar yoga todos los días? Puedes iniciar hábitos grupales. ¡El objetivo es que sea simple!",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/card_tamaliza.png",
+      "link": "https://www.behance.net/gallery/115589043/Tamaliza-App",
+      "technologies": [
+        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
+        { "name": "Redux", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/redux.svg" },
+        { "name": "Sass", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/sass.svg" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hobbify",
+      "information": "Sub-routine allows users to track their progress on daily habits. Want to try practicing yoga daily for the next 30 days? Keep you in check with the sub-routine. The goal is to keep it simple!",
+      "information-es": "Hobbify permite a los usuarios realizar un seguimiento de su progreso en los hábitos diarios. ¿Quieres intentar practicar yoga todos los días? Puedes iniciar hábitos grupales. ¡El objetivo es que sea simple!",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/hobbify-card.png",
+      "link": "https://github.com/hobbify-team/Hobbify-Client",
+      "technologies": [
+        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
+        { "name": "Redux", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/redux.svg" },
+        { "name": "Styled-Components", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/styled-components.png" }
+      ]
+    },
+    {
+      "id": 4,
       "name": "CoronaData",
-      "information": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
+      "information": "CoronaData is a project created to show the number of beds in hospitals that each country has to care for its COVID-19 patients, all this on an interactive map with graphics included.",
+      "information-es": "CoronaData es un proyecto creado para mostrar la cantidad de camas en los hospitales de las que dispone cada país para atender a sus enfermos de COVID-19, todo esto en un mapa interactivo con gráficos incluidos",
       "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/coronadata-card.png",
+      "link": "https://github.com/PerezCode/CoronaData",
       "technologies": [
         { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
         { "name": "GraphQL", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/graphql.svg" },
@@ -27,15 +57,81 @@
       ]
     },
     {
-      "id": 3,
-      "name": "Hobbify",
-      "information": "Hobbify permite a los usuarios realizar un seguimiento de su progreso en los hábitos diarios. ¿Quieres intentar practicar yoga todos los días? Puedes iniciar hábitos grupales. ¡El objetivo es que sea simple!",
-      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/hobbify-card.png",
+      "id": 5,
+      "name": "Luna Control",
+      "information": "Luna Control is an Android App built for a small business that sells Cheesecakes, Campechanas and Polvorones. The app handles customer data, sales records among other things.",
+      "information-es": "Luna Control es una App para Android construida para un negocio que se dedica a vender Pays de Queso, Campechanas y Polvorones. La app maneja datos de clientes, registros de ventas entre otras cosas.",
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/luna-control-card.png",
+      "link": "https://github.com/juanjosemayorga",
       "technologies": [
-        { "name": "React.js", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/react-t.svg" },
-        { "name": "Redux", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/redux.svg" },
-        { "name": "Styled-Components", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/styled-components.png" }
+        { "name": "Java", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/java.svg" },
+        { "name": "Firebase Database", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/firebase.svg" },
+        { "name": "Material Design", "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/images/material-design.png" }
       ]
+    }
+  ],
+  "technologies": [
+    { "id": 1,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/html.svg",
+      "name": "HTML"
+    },
+    { "id": 2,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/css.svg",
+      "name": "CSS"
+    },
+    { "id": 3,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/javascript.svg",
+      "name": "JavaScript"
+    },
+    { "id": 4,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/react.svg",
+      "name": "React.js"
+    },
+    { "id": 5,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/redux.svg",
+      "name": "Redux"
+    },
+    { "id": 6,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/nodejs.svg",
+      "name": "Node.js"
+    },
+    { "id": 7,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/typescript.png",
+      "name": "Typescript"
+    },
+    { "id": 8,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/webpack.png",
+      "name": "Webpack"
+    },
+    { "id": 9,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/sass.svg",
+      "name": "Sass"
+    },
+    { "id": 10,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/technologies/jest1.png",
+      "name": "Jest"
+    }
+  ],
+  "software": [
+    { "id": 1,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/software/photoshop.svg",
+      "name": "Adobe Photoshop CC"
+    },
+    { "id": 2,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/software/premiere.svg",
+      "name": "Adobe Premiere CC"
+    },
+    { "id": 3,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/software/aftereffects.svg",
+      "name": "Adobe After Effects CC"
+    },
+    { "id": 4,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/software/illustrator.svg",
+      "name": "Adobe Illustrator CC"
+    },
+    { "id": 5,
+      "image": "https://assets-juanjosemayorga-website.s3.amazonaws.com/software/adobexd.svg",
+      "name": "Adobe XD"
     }
   ],
   "certificates": [

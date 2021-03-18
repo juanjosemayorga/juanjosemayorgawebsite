@@ -8,7 +8,6 @@ import LinkedinLogo from '../../assets/pages/HomeScreen/social-media/LinkedinLog
 import GithubLogo from '../../assets/pages/HomeScreen/social-media/GithubLogo'
 import TwitterLogo from '../../assets/pages/HomeScreen/social-media/TwitterLogo'
 import PlatziLogo from '../../assets/pages/HomeScreen/social-media/PlatziLogo'
-import FreecodecampLogo from '../../assets/pages/HomeScreen/social-media/FreecodecampLogo'
 
 import MailIcon from '../../assets/pages/HomeScreen/MailIcon'
 import LocationIcon from '../../assets/pages/HomeScreen/LocationIcon'
@@ -19,7 +18,6 @@ import {
   TWITTER_PROFILE,
   GITHUB_PROFILE,
   PLATZI_PROFILE,
-  FREECODECAMP_PROFILE
 } from '../../utils/links'
 
 import { SocialMediaItem } from '../../components/screens/homescreen/SocialMediaItem/SocialMediaItem'
@@ -29,7 +27,6 @@ const logos = [
   { id: 2, name: "Github", path: GITHUB_PROFILE, Logo: GithubLogo },
   { id: 3, name: "Twitter", path: TWITTER_PROFILE, Logo: TwitterLogo },
   { id: 4, name: "Platzi", path: PLATZI_PROFILE, Logo: PlatziLogo },
-  { id: 5, name: "FreeCodeCamp", path: FREECODECAMP_PROFILE, Logo: FreecodecampLogo },
 ]
 
 export const HomeScreen = () => {
@@ -51,7 +48,7 @@ export const HomeScreen = () => {
             <h1 className="home-screen-section-1__container-titles--title">Juan Jose Mayorga</h1>
             <h3 className="home-screen-section-1__container-titles--profession">
               Frontend Developer
-              <span className="home-screen-section-1__container-titles--video-editor"> & Video Editor</span>
+              <span className="home-screen-section-1__container-titles--video-editor"> / UI Designer</span>
             </h3>
           </div>
           <div className="home-screen-section-1__container-social-media">
@@ -65,10 +62,11 @@ export const HomeScreen = () => {
             className="home-screen-section-1__logo-react"/>
       </section>
       <section className="home-screen-section-2__about-me">
-        <h3 className="home-screen-section-2__about-me--about-me">Sobre mí</h3>
-        <p className="home-screen-section-2__about-me-text--part-1">Luego de muchos años de auto-formación que me definen porque nunca paro de aprender, soy un <strong>Frontend Developer</strong> con experiencia en HTML, CSS, JavaScript y diseño UI. Hoy me encuentro trabajando con tecnologías como React y Redux.</p>
-        <p className="home-screen-section-2__about-me-text--part-2">Todo esto combinado con mi experiencia en la rama audiovisual manejando Software como Premiere Pro CC, After Effects o Photoshop, puedo apoyar en proyectos multidisciplinarios.
-        Busco colaborar en proyectos desarrollando productos digitales con piezas de código re-utilizables construidas en React, y así convertirme en un experto en mi área, pues en verdad me apasiona lo que hago.</p>
+        <h3 className="home-screen-section-2__about-me--about-me">About me</h3>
+        <p className="home-screen-section-2__about-me-text--part-1">I have collaborated in a lot of Frontend projects working from the UI design to the layout and the building of them, with technologies like React.js and Redux. All this together with teams of developers using methodologies as SCRUM.</p><br/>
+        <p className="home-screen-section-2__about-me-text--part-2">After many years of auto-formation which defines me because I never stop learning, I am a <strong>Frontend Developer</strong> with experience in HTML, CSS, JavaScript and UI design. Today, I find myself experimenting with technologies like React and Redux.</p><br/>
+        <p className="home-screen-section-2__about-me-text--part-2">All this combined with my experience in the audiovisual realm, managing Software like Premiere Pro CC, After Effects and Photoshop allow me to support multidisciplinary projects.
+I’m looking to collaborate in projects developing digital products with reusable code pieces constructed in React, I am truly passionate about what I do.</p>
       </section>
       <section className="home-screen-section-3__contact-and-location">
         <div className="home-screen-section-3__contact-and-location--section-1">

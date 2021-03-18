@@ -5,7 +5,7 @@ import { SoftwareScreenContainer } from '../../components/screens/softwarescreen
 export const SoftwareScreen = () => {
   return (
     <div className="software-screen-container">
-      <h2 className="software-screen__title">Software que manejo</h2>
+      <h2 className="software-screen__title">Software I know</h2>
       <SoftwareScreenContainer />
     </div>
   )
