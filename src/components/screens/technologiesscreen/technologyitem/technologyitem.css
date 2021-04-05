@@ -31,19 +31,13 @@
     width: 154px;
     height: 205px;
   }
-  .technology-screen-item-container:hover .technology-screen-item__figure {
-    transform: scale(1.1);
-    transform-origin: top;
-  }
   .technology-screen-item__figure {
     height: 140px;
     width: 140px;
     transform-origin: top;
-    transition: all 0.2s ease-in-out;
   }
   .technology-screen-item__technology-text {
     font-size: 2.8rem;
-    transition: all 0.2s ease-in-out;
   }
 
 }
